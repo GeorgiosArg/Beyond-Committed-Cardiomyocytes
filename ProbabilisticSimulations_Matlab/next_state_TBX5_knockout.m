@@ -24,7 +24,7 @@ switch i
     case 11
         next_state = vector(7);
     case 12
-        next_state = ~(vector(11) || vector(4)) && (vector(10) || vector(12) || vector(9)) && (~vector(5) || vector(9) || vector(12) );
+        next_state = 0;
     case 13
         next_state = vector(10) || vector(9) || vector(12);
     case 14
